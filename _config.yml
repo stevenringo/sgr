@@ -1,0 +1,4 @@
+url: http://sgr-test.herokuapp.com
+markdown: redcarpet
+pygments: true
+exclude: [config.ru, Gemfile, Gemfile.lock, LICENSE.txt, Procfile, Rakefile, README.md, vendor]
