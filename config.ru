@@ -7,9 +7,9 @@ use Rack::Deflater
 use Rack::Rewrite do
   r301 '/blog/from', '/blog/to.html'
   r301 '/external', 'https://example.com/external link'
-  r301 %r{.*}, 'http://sgr-test.herokuapp.com$&', if: Proc.new do |rack_env|
+  r301 %r{.*}, 'http://sgr-test.herokuapp.com$&', if: Proc.new { |rack_env|
     ENV['RACK_ENV'] == "production" && rack_env['SERVER_NAME'] != 'sgr-test.herokuapp.com'
-  end
+  }
 end
 
 use Rack::TryStatic,
