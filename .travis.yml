@@ -7,5 +7,5 @@ deploy:
   api_key:
     secure: Mnp5pC57uuH17yWFYSQFeUcnb4EjpNH5umcW0uk07NYBINhuJD5nMLWXNi3K964IWVGe1NMgKS73SsLhPH8PZqvbkpZ6LNfmQARRB8wenYSDdcdBfga4DSWfqcpCb+Ob9+yI6kVbambWp7s8vEAZVJqKW/4TgPIUx13Lwo8ckrM=
   app:
-    master: sgr-test
+    # master: sgr-test
     master: sgr-slave
