@@ -8,7 +8,7 @@ deploy:
     # secure: Mnp5pC57uuH17yWFYSQFeUcnb4EjpNH5umcW0uk07NYBINhuJD5nMLWXNi3K964IWVGe1NMgKS73SsLhPH8PZqvbkpZ6LNfmQARRB8wenYSDdcdBfga4DSWfqcpCb+Ob9+yI6kVbambWp7s8vEAZVJqKW/4TgPIUx13Lwo8ckrM=
     secure: elU5ysPuUg7IRumIRVp1eXL6b2s0SV/Sgeg0Kudzd5f9DxMU4aFAP0vnR+b1bBnWjTrwVXCBSqfV4hJC1gFLCXseHWAc1Li6B+3E3ZDYojVg5mD3QDHD3d1adQIgPriBMUn24xJCyv0Jr/t+vquE5YpTGXdwBF8fwq5bGJDwcgU=
   app:
-    # master: sgr-test
+    master: sgr-test
     master: sgr-slave
 
 
